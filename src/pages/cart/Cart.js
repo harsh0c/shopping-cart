@@ -18,7 +18,7 @@ function Cart() {
       </div>
       <div className='checkout'>
         <p>SubTotal:${getTotalAmount()}</p>
-        <button onClick={()=>navigate("/")}>Continue Shopping</button>
+        <button onClick={()=>navigate("/shopping-cart")}>Continue Shopping</button>
         <button>CheckOut</button>
       </div>
     </div>
